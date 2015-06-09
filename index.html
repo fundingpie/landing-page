@@ -154,7 +154,7 @@
 							<h1 class="text-white">Property financing without the hassle of the banks.</h1>
 							<p class="lead text-white">Easy 10 min online application. No paperwork. No hidden fees.</p>
 							<a target="_self" href="investors.html" class="btn btn-primary btn-white">become an investor</a>
-							<a href="#email-signup" class="btn btn-primary btn-filled inner-link" target="default">Apply for funding</a>
+							<a id="apply" href="#email-signup" class="btn btn-primary btn-filled inner-link" target="default">Apply for funding</a>
 						</div>
 					</div>
 				</div>
@@ -548,7 +548,7 @@
           });
         });
 
-        $('#email-signup').click(function(e) {
+        $('#apply').click(function(e) {
           mixpanel.track("Apply for funding clicked");
         })
       });
