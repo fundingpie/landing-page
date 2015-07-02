@@ -1454,10 +1454,10 @@ and (orientation : portrait) {
 .milestones .lead:last-child, .skill-bars .lead:last-child{ margin-bottom: 64px !important; }
 .milestones .feature:hover .pin-head{ background-color: @color-primary; }
 
-.expanding-list{ position: relative; overflow: hidden; }
+.expanding-list{ position: relative; overflow: visible; }
 
-.expanding-ul{ position: relative; overflow: hidden; }
-.expanding-ul li{ text-align: center; border-bottom: 1px solid rgba(0,0,0,0.2); padding-bottom: 24px; margin-bottom: 24px; cursor: pointer; }
+.expanding-ul{ position: relative; overflow:; }
+.expanding-ul li{ text-align: inherit; border-bottom: 1px solid rgba(0,0,0,0.2); padding-bottom: 24px; margin-bottom: 24px; cursor: pointer; }
 .expanding-ul li .title{ .transition-300; }
 .expanding-ul .title i{ color: @color-primary; font-size: 32px; display: inline-block; margin-right: 24px; }
 .expanding-ul .title span{ position: relative; bottom: 8px; }
