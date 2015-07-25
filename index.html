@@ -1,0 +1,307 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>funding pie</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link href="css/flexslider.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/line-icons.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/elegant-icons.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/theme-fundingpie.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/custom.css" rel="stylesheet" type="text/css" media="all"/>
+        <!--[if gte IE 9]>
+        	<link rel="stylesheet" type="text/css" href="css/ie9.css" />
+		<![endif]-->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700%7CRaleway:700' rel='stylesheet' type='text/css'>
+        <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+        <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-63662962-1', 'auto');
+          ga('send', 'pageview');
+
+        </script>
+
+        <!-- start Mixpanel -->
+        <script type="text/javascript">(function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+        for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);
+        mixpanel.init("75906961311b647deec434f7300a4ab0");</script>
+        <!-- end Mixpanel -->
+
+    </head>
+    <body>
+    	<div class="loader">
+    		<div class="spinner">
+			  <div class="double-bounce1"></div>
+			  <div class="double-bounce2"></div>
+			</div>
+    	</div>
+
+		<div class="nav-container"><nav class="top-bar overlay-bar">
+				<div class="container">
+					<div class="row nav-menu">
+						<div class="col-md-2 col-sm-3 columns">
+							<img class="logo logo-light logo-wide" alt="Logo" src="img/logo-light.png">
+							<img class="logo logo-dark logo-wide" alt="Logo" src="img/logo-dark.png">
+						</div>
+
+						<div class="col-md-10 col-sm-9 columns">
+							<ul class="menu">
+								<li><a href="#borrowers" class="inner-link">borrowers</a></li>
+                <li><a href="#investors" class="inner-link">investors</a></li>
+                <li><a href="#email-signup" class="inner-link" target="default">contact</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="mobile-toggle">
+						<i class="icon icon_menu"></i>
+					</div>
+
+				</div>
+			</nav>
+
+		</div>
+
+		<div class="main-container">
+		<a id="melbourne-hero" class="in-page-link"></a>
+
+			<header class="fullscreen-element no-pad centered-text">
+				<div class="background-image-holder parallax-background overlay">
+					<img class="background-image" alt="Background Image" src="img/hero-melb.jpg">
+				</div>
+
+				<div class="container align-vertical">
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<span class="text-white alt-font">coming soon</span>
+							<h1 class="text-white">The simplest&nbsp;way to fund real estate development&nbsp;</h1>
+							<p class="lead text-white">FundingPie will allow developers to raise debt captial faster and investors to invest directly into the projects they want</p>
+
+              <a href="#email-signup" class="btn btn-primary btn-filled inner-link" target="default">Learn More</a>
+						</div>
+					</div>
+				</div>
+			</header>
+
+      <section class="pure-text-centered">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
+              <span class="sub alt-font"> </span>
+              <h1><strong>What is FundingPie?</strong></h1>
+              <p class="lead">
+                FundingPie is an online marketplace lending platform for real estate. We use technology to connect investors with quality realestate developers with proven track records for debt capital funding. Entire funding process is streamlined for both investor and developer, completely online.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <a id="borrowers" class="in-page-link"></a>
+      <section class="pure-text-centered">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
+              <span class="sub alt-font"> </span>
+              <h1><strong>Better for Borrowers</strong></h1>
+              <p class="lead">
+                Apply online. 10min application. No paperwork. Complete transparency. <br>Get funded in 30 days</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <a id="investors" class="in-page-link"></a>
+      <section class="pure-text-centered">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
+              <span class="sub alt-font"> </span>
+              <h1><strong>Opportunties for Investors</strong></h1>
+              <p class="lead">
+                Simplified real estate investing. Get access to secured investments with fixed income returns <br>with zero fees.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+			<a id="email-signup" class="in-page-link"></a>
+
+			<header class="signup">
+					<div class="background-image-holder parallax-background">
+						<img class="background-image" alt="Background Image" src="img/header1.jpg">
+					</div>
+
+					<div class="container">
+						<div class="row">
+							<div class="col-md-10 col-md-offset-1 col-sm-12 text-center">
+								<h1 class="text-white">Be the first to know when we launch</h1>
+							</div>
+						</div>
+
+						<div class="row text-center">
+
+							<div class="col-sm-12 text-center">
+								<div class="photo-form-wrapper clearfix">
+									<form id="subscribe-form" class="mail-list-signup" action="/subscribe?type=borrower">
+										<div class="row">
+
+                      <div class="col-md-4 col-sm-4">
+												<input class="signup-name-field validate-required" type="text" placeholder="Your Name" name="name">
+											</div>
+
+											<div class="col-md-4 col-sm-4">
+												<input class="signup-email-field validate-required validate-email" type="text" placeholder="Your Email Address" name="email">
+											</div>
+
+                      <div class="col-md-4 col-sm-4">
+                        <input class="signup-email-field validate-required" type="text" placeholder="Phone Number" name="phone">
+                      </div>
+
+                      <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 text-center">
+												<input type="submit" class="btn btn-primary btn-filled" value="Let me know">
+											</div>
+										</div>
+									</form>
+								</div>
+
+								<span class="text-white">We <strong>never</strong> share emails with third parties or anybody, ever!</span>
+							</div>
+
+						</div>
+
+
+
+					</div>
+			</header>
+		</div>
+
+		<div class="footer-container">
+
+
+
+			<footer class="details">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-4">
+							<img alt="logo" class="logo" src="img/logo-dark.png">
+							<p>
+								FundingPie is the simplest way to fund realestate development. Completely online and secure.
+							</p>
+						</div>
+
+						<div class="col-sm-4">
+							<h1>Contact</h1>
+							<p>
+								hello@fundingpie.com<br><br>
+								<br>
+								Level 1, 20 Queen Street<br>
+								Melbourne 3000
+							</p>
+						</div>
+
+
+					</div>
+
+					<div class="row">
+						<div class="col-sm-12">
+							<span class="sub">© Copyright 2015 FundingPie&nbsp;- All Rights Reserved</span>
+						</div>
+					</div>
+
+				</div>
+			</footer>
+		</div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Thank you for keeping in touch!</h4>
+          </div>
+          <div class="modal-body">
+            You will receive an email to confirm your subscription shortly.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+		<script src="https://www.youtube.com/iframe_api"></script>
+		<script src="js/jquery.min.js"></script>
+    <script src="js/jquery.plugin.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/skrollr.min.js"></script>
+    <script src="js/spectragram.min.js"></script>
+    <script src="js/scrollReveal.min.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/twitterFetcher_v10_min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <script type="text/javascript">
+      $(function() {
+        $('#subscribe-form').submit(function(e) {
+          e.preventDefault();
+
+          mixpanel.track("Subscribed");
+
+          $.post(
+            $(this).attr('action'),
+            $(this).serialize(),
+            function(data) {
+              $('#myModal').modal('show')
+          });
+        });
+
+        $('#apply').click(function(e) {
+          mixpanel.track("Apply for funding clicked");
+        })
+      });
+    </script>
+
+    </body>
+</html>
